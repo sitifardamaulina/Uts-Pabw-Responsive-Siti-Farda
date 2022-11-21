@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/tailwind.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Navbar menu start -->
+    <nav class="px-2 xl:px-24 lg:px-11 py-2.5" style="background-color: #FFFAF2;">
+        <div class="container flex items-center justify-between flex-wrap mx-auto lg:px-6">
+            <a href="/" class="flex items-center">
+                <img src="assets/ellipse.png" class="h-6 lg:h-9" style="margin-left: 3px;">
+                <img src="assets/home.png" class="logo h-6 mt-1 lg:h-8 lg:-ml-6 -ml-4" alt="Flowbite Logo">
+            </a>
+            <div class="block lg:hidden">
+              <button class="flex items-center px-3 py-2 border rounded text-orange-500 border-orange-500 hover:text-teal hover:border-teal" id="navbar-btn">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <title>Menu</title>
+                  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                </svg>
+              </button>
+            </div>
+            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto lg:bg-inherit bg-emerald-300" id="navbar">
+              <div class="text-center flex flex-col lg:p-4 py-3 lg:flex-row md:mt-0 lg:text-sm font-bold">
+                <a href="#" class="text-base hover:text-lg hover:text-orange-500 block mt-4 lg:inline-block lg:mt-0 mr-4">Home</a>
+                <a href="#" id="courses-btn" class="text-base hover:text-lg hover:text-orange-500 block mt-4 lg:inline-block lg:mt-0 mr-4">Course</a>
+                <a href="#" id="mentors-btn" class="text-base hover:text-lg hover:text-orange-500 block mt-4 lg:inline-block lg:mt-0 mr-4">Mentors</a>
+                <a href="#" id="about-us-btn" class="text-base hover:text-lg hover:text-orange-500 block mt-4 lg:inline-block lg:mt-0 mr-4">About Us</a>
+                <a href="#" class="text-base hover:text-lg hover:text-orange-500 block mt-4 lg:inline-block lg:mt-0 mr-4">Contact</a>
+              </div>
+            </div>
+            <div class="hidden w-full lg:block lg:w-auto flex items-center space-x-2">
+                <button class="px-6 py-2 text-orange-500 text-sm font-bold border border-orange-500 hover:bg-orange-500 hover:text-white rounded-full">Login</button>
+                <button class="px-6 py-2 text-white text-sm hover:bg-white hover:text-orange-500 hover:border border-orange-500 bg-orange-400 font-bold rounded-full">Registration</button>
+            </div>
+        </div>
+      </nav>
+      <!-- Navbar menu end -->
+
+    <div class="px-2 xl:px-24 lg:px-11 lg:pt-6" style="background-color: #FFFAF2;">
+        <div class="container flex flex-col md:flex-row items-top mx-auto lg:px-6">
+            <div class="w-full lg:w-3/6 lg:py-6 lg:pt-12 pt-6">
+                <span class="text-3xl xl:text-5xl lg:text-4xl font-bold" style="color: #151F3C;">The Best <span class="text-orange-500">Courses</span></span><br>
+                <span class="text-3xl xl:text-5xl lg:text-4xl font-bold" style="color: #151F3C;">With The Best</span><br>
+                <span class="text-3xl xl:text-5xl lg:text-4xl font-bold" style="color: #151F3C;">Mentors</span>
+                <p class="lg:mt-6 mt-4 text-sm text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde ipsam, itaque blanditiis minima inventore adipisci sequi aut facilis deserunt a mollitia sint consequuntur quam ut accusantium fugiat atque aliquid?</p>
+                <button class="px-7 py-2 text-sm text-white bg-orange-400 rounded-full font-bold lg:mt-6 mt-6">Register Now</button>
+            </div>
+            <div class="w-full lg:w-3/6 flex justify-center">
+                <img src="assets/bg-contain-1.png" class="w-52 xl:w-96 lg:w-80 md:w-60">
+            </div>
+        </div>
+    </div>
+
+    <div class="px-2 xl:px-24 lg:px-11 lg:pt-12 pt-6" id="courses">
+        <div class="container flex flex-col lg:flex-row items-top mx-auto lg:px-6">
+            <div class="w-full lg:w-3/6">
+                <span class="text-2xl xl:text-4xl lg:text-3xl font-bold" style="color: #151F3C;">Find The Course</span><br>
+                <span class="text-2xl xl:text-4xl lg:text-3xl font-bold" style="color: #151F3C;">You Want</span>
+            </div>
+            <div class="w-full lg:w-3/6 text-slate-500 text-sm lg:mt-0 mt-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quo, possimus earum blanditiis ut omnis ipsum repellat ducimus fugiat aperiam sapiente placeat, aliquid consequuntur quod. Amet harum earum ad laudantium!
+            </div>
+        </div>
+    </div>
+
+    <div class="px-2 xl:px-24 lg:px-11 lg:pt-12 lg:mt-0 mt-8">
+        <div class="container flex flex-col lg:justify-between lg:flex-row items-top mx-auto lg:px-6">
+            <div class="w-full lg:w-2/6 lg:p-3 lg:h-52 h-44 lg:mb-0 mb-4">
+                <div class="py-3 px-5 flex flex-col justify-end w-full h-full rounded-lg" style="background-image: url('assets/html-css.webp'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+                    <span class="w-full text-sm font-bold text-white">Basic Programming (HTML, CSS)</span>
+                    <span class="w-full text-sm text-white">Teacher</span>
+                </div>
+            </div>
+            <div class="w-full lg:w-2/6 lg:p-3 lg:h-52 h-44 lg:mb-0 mb-4">
+                <div class="py-3 px-5 flex flex-col justify-end w-full h-full rounded-lg" style="background-image: url('assets/basic-programming.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+                    <span class="w-full text-sm font-bold text-white">HTML5 + Tailwind CSS</span>
+                    <span class="w-full text-sm text-white">Teacher</span>
+                </div>
+            </div>
+            <div class="w-full lg:w-2/6 lg:p-3 lg:h-52 h-44 lg:mb-0 mb-4">
+                <div class="py-3 px-5 flex flex-col justify-end w-full h-full rounded-lg" style="background-image: url('assets/photography.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+                    <span class="w-full text-sm font-bold text-white">Photography</span>
+                    <span class="w-full text-sm text-white">Teacher</span>
+                </div>
+            </div>
+        </div>
+        <div class="w-full flex items-center justify-center lg:mb-0 mb-4">
+            <button class="px-7 py-2 text-sm text-white bg-orange-400 rounded-full font-bold lg:mt-6">See Course</button>
+        </div>
+    </div>
+
+    <div class="px-2 xl:px-24 lg:px-11 lg:pt-12 lg:mt-0 mt-8" id="mentors">
+        <div class="container flex justify-between md:flex-row flex-col items-center mx-auto lg:px-6">
+            <div class="w-3/6 flex justify-center">
+                <img src="assets/bg-contain-2.png" class="xl:w-60 lg:w-52 md:w-48">
+            </div>
+            <div class="w-full lg:w-3/6">
+                <span class="text-2xl xl:text-4xl lg:text-3xl font-bold" style="color: #151F3C;">Mentors who are</span><br>
+                <span class="text-2xl xl:text-4xl lg:text-3xl font-bold" style="color: #151F3C;">professional in</span><br>
+                <span class="text-2xl xl:text-4xl lg:text-3xl font-bold" style="color: #151F3C;">their fields</span>
+                <p class="lg:mt-6 text-sm text-slate-500 lg:mt-0 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Command dolor aut cupidate volundates eur</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-2 xl:px-24 lg:px-11 lg:pt-12 lg:mt-0 mt-8">
+        <div class="container mx-auto lg:px-6">
+            <div class="w-full lg:w-3/6">
+                <span class="text-2xl xl:text-4xl lg:text-3xl font-bold" style="color: #151F3C;">We will provide the best</span><br>
+                <span class="text-2xl xl:text-4xl lg:text-3xl font-bold" style="color: #151F3C;">for our users from year</span><br>
+                <span class="text-2xl xl:text-4xl lg:text-3xl font-bold" style="color: #151F3C;">to year</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-2 xl:px-24 lg:px-11 lg:pt-6">
+        <div class="container flex flex-col lg:justify-between lg:flex-row items-center mx-auto lg:px-6">
+            <div class="w-full lg:w-3/6 flex flex-col">
+                <p class="text-sm text-slate-500 lg:mt-0 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aut optio debitis cupiditate</p>
+                <div class="pt-6">
+                    <p class="font-bold text-sm" style="color: #151F3C;">&check;&nbsp;&nbsp;World-class&emsp;&ensp;&check;&nbsp;&nbsp;Flexible</p>
+                    <p class="font-bold text-sm pt-3" style="color: #151F3C;">&check;&nbsp;&nbsp;Affordable&emsp;&ensp;&check;&nbsp;&nbsp;Job-relevant</p>
+                </div>
+                <button class="px-7 py-2 text-sm text-white bg-orange-400 rounded-full font-bold mt-6 w-40">Register Now</button>
+            </div>
+            <div class="w-full lg:w-3/6">
+                <img src="assets/stock.png" alt="" class="h-44 w-full">
+            </div>
+        </div>
+    </div>
+
+    <div class="px-2 xl:px-24 lg:px-11 lg:py-12 mt-12" style="background-color: #FFFAF2;">
+        <div class="container items-center mx-auto lg:px-6 flex md:flex-row flex-col">
+            <div class="w-full lg:w-3/6 flex flex-col">
+                <span class="text-2xl xl:text-4xl lg:text-3xl font-bold" style="color: #151F3C;">Trusted</span>
+                <span class="text-2xl xl:text-4xl lg:text-3xl font-bold" style="color: #151F3C;">by 20,000+ People</span>
+                <span class="text-sm text-slate-500 mt-6 pr-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur veniam cumque veritatis, a quae consequatur minus et repellendus ab nulla impedit. Cupiditate omnis nemo consequuntur earum, libero beatae adipisci enim.</span>
+            </div>
+            <div class="w-full lg:w-3/6 flex flex-col">
+                <div class="flex justify-end">
+                    <div class="bg-white drop-shadow-lg rounded w-7/12 p-4">
+                        <div class="flex flex-row space-x-2">
+                            <img src="assets/ellipse.png" class="w-6 h-6" alt="">
+                            <div class="flex flex-col">
+                                <span class="text-sm font-bold" style="color: #151F3C;">Ben Arthur</span>
+                                <span class="text-xs text-slate-500">UI Designer</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col mt-3">
+                            <span class="text-slate-500 font-bold">''</span>
+                            <span class="text-xs text-slate-500 pr-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet placeat laborum</span>
+                            <div class="flex flex-row mt-3 space-x-2">
+                                <span class="fa fa-star text-xs text-orange-500"></span>
+                                <span class="fa fa-star text-xs text-orange-500"></span>
+                                <span class="fa fa-star text-xs text-orange-500"></span>
+                                <span class="fa fa-star text-xs text-orange-500"></span>
+                                <span class="fa fa-star text-xs text-orange-500"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-start">
+                    <div class="bg-white drop-shadow-lg rounded w-7/12 p-4">
+                        <div class="flex flex-row space-x-2">
+                            <img src="assets/ellipse.png" class="w-6 h-6" alt="">
+                            <div class="flex flex-col">
+                                <span class="text-sm font-bold" style="color: #151F3C;">Rachel Shyne</span>
+                                <span class="text-xs text-slate-500">Product Manager</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col mt-3">
+                            <span class="text-slate-500 font-bold">''</span>
+                            <span class="text-xs text-slate-500 pr-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet placeat laborum</span>
+                            <div class="flex flex-row mt-3 space-x-2">
+                                <span class="fa fa-star text-xs text-orange-500"></span>
+                                <span class="fa fa-star text-xs text-orange-500"></span>
+                                <span class="fa fa-star text-xs text-orange-500"></span>
+                                <span class="fa fa-star text-xs text-orange-500"></span>
+                                <span class="fa fa-star text-xs text-orange-500"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-2 xl:px-24 lg:px-11 lg:py-12 lg:mt-0 mt-8">
+        <div class="container flex flex-col lg:justify-between lg:flex-row items-center mx-auto lg:px-6">
+            <div class="w-full lg:w-3/6">
+                <span class="text-2xl xl:text-4xl lg:text-3xl font-bold" style="color: #151F3C;">Develop Your Quality</span><br>
+                <p class="lg:mt-6 text-sm text-slate-500 lg:mt-0 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Command dolor aut cupidate volundates eur</p>
+                <button class="px-7 py-2 text-sm text-white bg-orange-400 rounded-full font-bold lg:mt-6 w-40 lg:mt-0 mt-6">Get Started</button>
+            </div>
+            <div class="w-3/6 flex justify-center lg:mt-0 mt-8">
+                <img src="assets/bg-contain-3.png" class="xl:w-60 lg:w-52 md:w-48">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <footer class="px-2 xl:px-24 lg:px-11 py-8" style="background-color: #281900;" id="footer">
+        <div class="container flex justify-between items-center mx-auto lg:px-6">
+            <div class="flex justify-between items-center">
+                <a href="/" class="flex items-center">
+                    <img src="assets/ellipse.png" class="h-6 lg:h-9" style="margin-left: 3px;">
+                    <img src="assets/Courcess.yuk.png" class="h-6 mt-1 lg:h-8 lg:-ml-6 -ml-4" alt="Flowbite Logo">
+                </a>
+            </div>
+        </div>
+        <div class="container mx-auto lg:px-6">
+            <div class="flex flex-wrap">
+                <div class="flex flex-col lg:w-3/12 w-3/6 lg:py-6 lg:mt-0 mt-6 items-center lg:items-start">
+                    <p class="text-sm text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt</p>
+                    <div class="w-full flex flex-row space-x-6 mt-12">
+                        <img src="assets/facebook.png" alt="">
+                        <img src="assets/twitter.png" alt="">
+                        <img src="assets/linkedin.png" alt="">
+                        <img src="assets/instagram.png" alt="">
+                    </div>
+                </div>
+
+                <div class="flex flex-col lg:w-2/12 w-3/6 lg:py-6 lg:mt-0 mt-6 items-center lg:items-start">
+                    <span class="font-bold text-white">Home</span>
+                    <span class="text-white text-sm mt-6">Class</span>
+                    <span class="text-white text-sm mt-4">Couse</span>
+                    <span class="text-white text-sm mt-4">About</span>
+                    <span class="text-white text-sm mt-4">Mentors</span>
+                </div>
+
+                <div class="flex flex-col lg:w-2/12 w-3/6 lg:py-6 lg:mt-0 mt-6 items-center lg:items-start">
+                    <span class="font-bold text-white">Our Company</span>
+                    <span class="text-white text-sm mt-6">Class Comunity</span>
+                    <span class="text-white text-sm mt-4">Course company</span>
+                    <span class="text-white text-sm mt-4">Company name</span>
+                    <span class="text-white text-sm mt-4">mens course</span>
+                    <span class="text-white text-sm mt-4">Courses.com</span>
+                </div>
+
+                <div class="flex flex-col lg:w-2/12 w-3/6 lg:py-6 lg:mt-0 mt-6 items-center lg:items-start">
+                    <span class="font-bold text-white">Class</span>
+                    <span class="text-white text-sm mt-6">Photography</span>
+                    <span class="text-white text-sm mt-4">HTML & CSS</span>
+                    <span class="text-white text-sm mt-4">Javascript</span>
+                    <span class="text-white text-sm mt-4">Java</span>
+                    <span class="text-white text-sm mt-4">PHP</span>
+                    <span class="text-white text-sm mt-4">UI/UX Design</span>
+                    <span class="text-white text-sm mt-4">Web Design</span>
+                    <span class="text-white text-sm mt-4">Design Grafis</span>
+                </div>
+
+                <div class="flex flex-col lg:w-3/12 w-3/6 lg:py-6 lg:mt-0 mt-6 items-center lg:items-start">
+                    <span class="font-bold text-white">About us</span>
+                    <span class="text-white text-sm mt-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis perferendis!</span>
+                    <input class="mt-6 rounded-full py-1 px-4" type="email" placeholder="Your email">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+
+    	$(document).ready(function () {
+
+		    var $window = $(window);
+
+		    function checkWindowWidth() {
+		    	
+		        var windowsize = $window.width();
+
+		        if (windowsize > 1000) {
+
+		            $('#navbar').css('display','block');
+
+		        } else {
+
+		            $('#navbar').css('display','none');
+
+		        }
+		    }
+
+		    checkWindowWidth();
+
+		    $(window).resize(checkWindowWidth);
+
+		});
+
+
+      $('#navbar-btn').click(function() {
+        $('#navbar').toggle();
+      });
+
+      $('#courses-btn').click(function() {
+        $('html,body').animate({scrollTop: $('#courses').offset().top}, 200, function() {
+            $('#courses').focus();
+        });
+      })
+
+      $('#mentors-btn').click(function() {
+        $('html,body').animate({scrollTop: $('#mentors').offset().top}, 200, function() {
+            $('#mentors').focus();
+        });
+      })
+
+      $('#about-us-btn').click(function() {
+        $('html,body').animate({scrollTop: $('#footer').offset().top}, 200, function() {
+            $('#footer').focus();
+        });
+      })
+
+    </script>
+
+</body>
+</html>
